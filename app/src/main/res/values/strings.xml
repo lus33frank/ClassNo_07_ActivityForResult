@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">No:07_ActivityForResult</string>
+    <string name="btnLogin">登入系統</string>
+    <string name="UserName">帳號</string>
+    <string name="PassWord">密碼</string>
+    <string name="btnClose">取消</string>
+    <string name="btnOK">確定</string>
+    <string name="UN_Hint">請輸入使用者帳號</string>
+    <string name="PW_Hint">請前入使用者密碼</string>
+    <string name="Login_OK">登入成功</string>
+    <string name="Login_failure">登入失敗，請重新登入</string>
+    <string name="Login_CANCELED">取消登入</string>
+    <string name="APP_Close">登入失敗累積 3 次，APP關閉！</string>
+</resources>

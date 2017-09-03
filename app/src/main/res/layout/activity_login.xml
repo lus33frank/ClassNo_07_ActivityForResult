@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="tw.com.frankchang.houli.classno_07_activityforresult.MainActivity"
+    android:orientation="vertical"
+    android:padding="@dimen/Padding">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/UserName"
+        android:textSize="@dimen/TextSizes_26"
+        android:layout_marginBottom="@dimen/Margin_15"/>
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/UN_Hint"
+        android:textSize="@dimen/TextSizes_26"
+        android:layout_marginBottom="@dimen/Margin_15"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/PassWord"
+        android:textSize="@dimen/TextSizes_26"
+        android:layout_marginBottom="@dimen/Margin_15"/>
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="@string/PW_Hint"
+        android:textSize="@dimen/TextSizes_26"
+        android:layout_marginBottom="@dimen/Margin_15"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="@dimen/Width_0"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btnClose"
+            android:textSize="@dimen/TextSizes_26"
+            android:layout_marginRight="@dimen/Margin_25"
+            android:layout_marginLeft="@dimen/Margin_40"/>
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="@dimen/Width_0"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btnOK"
+            android:textSize="@dimen/TextSizes_26"
+            android:layout_marginRight="@dimen/Margin_40"
+            android:layout_marginLeft="@dimen/Margin_25"/>
+    </LinearLayout>
+</LinearLayout>
